@@ -1,0 +1,134 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 132067300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Create Activitie and validate",
+        "description": "",
+        "id": "activitie;create-activitie-and-validate",
+        "after": [
+          {
+            "result": {
+              "duration": 3650700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.endTest(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 601900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9391001700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I make the post with the data id 22 and title \"Activity 22\", so validate the return status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Activity 22\"",
+                  "offset": 46
+                },
+                {
+                  "val": "200",
+                  "offset": 99
+                }
+              ],
+              "location": "ActivitieApiStep.post(Integer,String,Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1342238100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I do the GET to id of first step, so validate the title is \"Activity 22\" and the return status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activity 22\"",
+                  "offset": 59
+                },
+                {
+                  "val": "200",
+                  "offset": 103
+                }
+              ],
+              "location": "ActivitieApiStep.getId(String,Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1146547900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "to do the GET for all, so validate the return is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 49
+                }
+              ],
+              "location": "ActivitieApiStep.getAll(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Activitie",
+    "description": "",
+    "id": "activitie",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/activitieApi.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

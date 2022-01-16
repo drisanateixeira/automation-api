@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Activitie",
+    "children" : [ {
+      "name" : "Create Activitie and validate",
+      "uid" : "d2727a3557e74499",
+      "parentUid" : "7293cc41bff52dd258f9740411c576e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642207950404,
+        "stop" : 1642207962450,
+        "duration" : 12046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7293cc41bff52dd258f9740411c576e8"
+  } ]
+}

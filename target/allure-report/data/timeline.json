@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-5P1FIO1",
+    "children" : [ {
+      "name" : "7108@DESKTOP-5P1FIO1.main(1)",
+      "children" : [ {
+        "name" : "Create Activitie and validate",
+        "uid" : "d2727a3557e74499",
+        "parentUid" : "f03b7d56f95e2f1e33acd2c18d43570a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642207950404,
+          "stop" : 1642207962450,
+          "duration" : 12046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f03b7d56f95e2f1e33acd2c18d43570a"
+    } ],
+    "uid" : "aee78318d189267092fcd7a98eaf2901"
+  } ]
+}

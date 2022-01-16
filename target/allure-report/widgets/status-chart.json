@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d2727a3557e74499",
+  "name" : "Create Activitie and validate",
+  "time" : {
+    "start" : 1642207950404,
+    "stop" : 1642207962450,
+    "duration" : 12046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

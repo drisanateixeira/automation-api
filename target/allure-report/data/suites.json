@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Activitie",
+    "children" : [ {
+      "name" : "Create Activitie and validate",
+      "uid" : "d2727a3557e74499",
+      "parentUid" : "d4316fbef24f3d61c0ed08190cb93934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642207950404,
+        "stop" : 1642207962450,
+        "duration" : 12046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d4316fbef24f3d61c0ed08190cb93934"
+  } ]
+}
