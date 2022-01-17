@@ -4,11 +4,11 @@ import org.apache.log4j.Logger;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import utils.LoggerHelper;
+import utils.Log;
 
 public class ServiceHooks {
 
-	Logger log = LoggerHelper.getLogger(ServiceHooks.class);
+	Logger log = Log.getLogger(ServiceHooks.class);
 
 	@Before
 	public void initializeTest() throws Exception {
@@ -41,9 +41,5 @@ public class ServiceHooks {
 
 	}
 
-	@After(order = 0)
-	public void fecharBrowser() throws Exception {
-
-	}
 
 }
